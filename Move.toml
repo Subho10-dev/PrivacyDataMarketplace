@@ -1,0 +1,15 @@
+[package]
+name = "Privacy_Marketplace"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule= "0x377be01b64b4385e2d8fb3f4bc4d2c558dde6cb3c085784a2987c9ce4f9c07a4 "
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
